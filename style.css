@@ -1,0 +1,79 @@
+body {
+    background-color: white;
+    color: blue;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #007bff;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: blue;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: blue;
+}
+
+.form-control {
+    border-color: blue;
+}
+
+.btn-primary {
+    background-color: blue;
+    border-color: blue;
+}
+
+.btn-primary:hover {
+    background-color: blue;
+    border-color: blueviolet;
+}
+
+.btn-block {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.register-link {
+    color: blue;
+}
+
+.register-link:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mt-3 {
+    margin-top: 1.5rem;
+}
+
+.mb-5 {
+    margin-bottom: 5rem;
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
